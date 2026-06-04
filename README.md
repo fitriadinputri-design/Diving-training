@@ -23,7 +23,7 @@ Contoh:
 -row dan col digunakan untuk membuat grid layout
 
 *#Sistem Grid Bootstrap
-Bootstrap menggunakan sistem grid 12 kolom untuk mengatur tata letak website. Sistem ini mempermudah pembagian tampilan agar responsive di berbagai perangkat seperti HP, tablet, dan laptop.
+-Bootstrap menggunakan sistem grid 12 kolom untuk mengatur tata letak website. Sistem ini mempermudah pembagian tampilan agar responsive di berbagai perangkat seperti HP, tablet, dan laptop.
 
 *#Komponen Bootstrap
 Bootstrap memiliki banyak komponen bawaan, seperti:
@@ -38,7 +38,7 @@ Bootstrap memiliki banyak komponen bawaan, seperti:
 Komponen tersebut dapat langsung digunakan tanpa harus membuat desain manual.
 
 *#Responsive Design
-Salah satu keunggulan utama Bootstrap adalah responsive design. Website yang dibuat dengan Bootstrap dapat menyesuaikan ukuran layar secara otomatis sehingga tetap nyaman digunakan di perangkat mobile maupun desktop.
+-Salah satu keunggulan utama Bootstrap adalah responsive design. Website yang dibuat dengan Bootstrap dapat menyesuaikan ukuran layar secara otomatis sehingga tetap nyaman digunakan di perangkat mobile maupun desktop.
 
 *#Kelemahan Bootstrap
  -Tampilan website terkadang terlihat mirip dengan website lain
@@ -46,4 +46,4 @@ Salah satu keunggulan utama Bootstrap adalah responsive design. Website yang dib
  -Harus memahami banyak class Bootstrap
  
 *#Kesimpulan
-Bootstrap adalah framework front-end yang mempermudah pembuatan website modern dan responsive. Dengan berbagai komponen siap pakai dan sistem grid yang fleksibel, Bootstrap menjadi salah satu framework paling populer dalam pengembangan website.
+-Bootstrap adalah framework front-end yang mempermudah pembuatan website modern dan responsive. Dengan berbagai komponen siap pakai dan sistem grid yang fleksibel, Bootstrap menjadi salah satu framework paling populer dalam pengembangan website.
