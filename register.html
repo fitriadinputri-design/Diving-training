@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Register | DeepBlue</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .auth-bubbles{
+  position:absolute;
+  inset:0;
+  overflow:hidden;
+  z-index:0;
+  pointer-events:none;
+}
+
+.bubble {
+  position: absolute;
+  bottom: -50px;
+  left: var(--x);
+
+  width: var(--s);
+  height: var(--s);
+
+  background: rgba(144,224,239,0.35);
+
+  border-radius: 50%;
+
+  animation: rise var(--d) ease-in infinite;
+}
+
+@keyframes rise {
+  0% {
+    bottom: -50px;
+    opacity: 0;
+    transform: translateX(0);
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 0.6;
+  }
+
+  100% {
+    bottom: 105%;
+    opacity: 0;
+    transform: translateX(20px);
+  }
+}
+
+.auth-card{
+  position:relative;
+  z-index:2;
+}
+
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .auth-page{
+      min-height:100vh;
+
+      background: linear-gradient(
+        160deg,
+        #03045e 0%,
+        #01579b 50%,
+        #006994 100%
+      );
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+      padding:120px 20px 40px;
+    }
+
+    .auth-card{
+
+      width:100%;
+      max-width:420px;
+
+      background:rgba(255,255,255,0.08);
+
+      backdrop-filter:blur(18px);
+
+      border:1px solid rgba(255,255,255,0.15);
+
+      border-radius:24px;
+
+      padding:40px;
+
+      box-shadow:0 20px 60px rgba(0,0,0,0.3);
+
+      animation:fadeUp 0.7s ease;
+    }
+
+    .auth-title{
+      color:white;
+      font-size:40px;
+      text-align:center;
+      margin-bottom:10px;
+      letter-spacing:1px;
+    }
+
+    .auth-subtitle{
+      text-align:center;
+      color:rgba(255,255,255,0.7);
+      margin-bottom:30px;
+    }
+
+    .input-group{
+      margin-bottom:20px;
+    }
+
+    .input-group input{
+
+      width:100%;
+      padding:15px;
+
+      border:none;
+      outline:none;
+
+      border-radius:14px;
+
+      background:rgba(255,255,255,0.12);
+
+      color:white;
+      font-size:15px;
+    }
+
+    .input-group input::placeholder{
+      color:rgba(255,255,255,0.6);
+    }
+
+    .input-group input:focus{
+
+      border:1px solid #f7c948;
+
+      box-shadow:
+      0 0 10px rgba(247,201,72,0.4);
+    }
+
+    .btn-auth{
+
+      width:100%;
+      padding:15px;
+
+      border:none;
+      border-radius:40px;
+
+      background:#f7c948;
+
+      color:#03045e;
+
+      font-weight:700;
+      font-size:16px;
+
+      cursor:pointer;
+
+      transition:0.3s;
+    }
+
+    .btn-auth:hover{
+
+      transform:translateY(-2px);
+
+      background:#ffe066;
+
+      box-shadow:
+      0 10px 30px rgba(247,201,72,0.3);
+    }
+
+    .auth-link{
+      margin-top:25px;
+      text-align:center;
+      color:white;
+    }
+
+    .auth-link a{
+      color:#f7c948;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    .auth-link a:hover{
+      text-decoration:underline;
+    }
+
+    @keyframes fadeUp{
+
+      from{
+        opacity:0;
+        transform:translateY(30px);
+      }
+
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="auth-bubbles">
+  <div class="bubble" style="--x:10%;--d:4s;--s:18px"></div>
+  <div class="bubble" style="--x:25%;--d:6s;--s:12px"></div>
+  <div class="bubble" style="--x:50%;--d:5s;--s:22px"></div>
+  <div class="bubble" style="--x:70%;--d:7s;--s:10px"></div>
+  <div class="bubble" style="--x:85%;--d:4.5s;--s:16px"></div>
+  <div class="bubble" style="--x:40%;--d:8s;--s:8px"></div>
+</div>
+
+<section class="auth-page">
+
+  <div class="auth-card">
+
+    <h1 class="auth-title">
+      REGISTER
+    </h1>
+
+    <p class="auth-subtitle">
+      Buat akun baru DeepBlue
+    </p>
+
+    <form action="register.php" method="POST">
+
+      <div class="input-group">
+
+        <input type="text"
+               name="username"
+               placeholder="Masukkan Username"
+               required>
+
+      </div>
+
+      <div class="input-group">
+
+        <input type="email"
+               name="email"
+               placeholder="Masukkan Email"
+               required>
+
+      </div>
+
+      <div class="input-group">
+
+        <input type="password"
+               name="password"
+               placeholder="Masukkan Password"
+               required>
+
+      </div>
+
+      <button type="submit" class="btn-auth">
+        Daftar Sekarang
+      </button>
+
+    </form>
+
+    <div class="auth-link">
+
+      Sudah punya akun?
+
+      <a href="login.html">
+        Login
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>
