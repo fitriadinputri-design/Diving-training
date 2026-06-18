@@ -51,8 +51,9 @@ Komponen tersebut dapat langsung digunakan tanpa harus membuat desain manual.
 
 1. Pengertian Vue JS
 -Vue JS adalah framework (library) JavaScript yang digunakan untuk membangun antarmuka pengguna (User Interface/UI) dan Single Page Application (SPA) agar website menjadi lebih interaktif dan responsif. Vue dikembangkan oleh Evan You pada tahun 2013–2014 sebagai alternatif yang lebih ringan dan mudah digunakan dibandingkan AngularJS.
+-utama Vue.js adalah untuk membangun antarmuka pengguna (UI) yang interaktif, dinamis, dan cepat pada aplikasi web. Sebagai framework JavaScript, Vue.js menyederhanakan proses penulisan kode HTML, CSS, dan JavaScript agar lebih terstruktur dan efisien.
 
-2. Kelebihan Vue JS
+3. Kelebihan Vue JS
    Vue JS memiliki beberapa keunggulan, yaitu:
     1. Ringan dan cepat karena ukuran library yang kecil.
     2. Mudah dipelajari, terutama bagi yang sudah memahami HTML, CSS, dan JavaScript.
@@ -61,7 +62,7 @@ Komponen tersebut dapat langsung digunakan tanpa harus membuat desain manual.
     5. Memiliki Virtual DOM, sehingga proses pembaruan halaman menjadi lebih efisien.
     6. Mudah diintegrasikan dengan library atau proyek yang sudah ada.
 
-3. Fitur Utama Vue JS
+4. Fitur Utama Vue JS
   a. Reactive Data Binding
      Data dan tampilan saling terhubung secara otomatis sehingga perubahan data langsung terlihat pada halaman.
   b. Component-Based Architecture
@@ -88,5 +89,5 @@ Komponen tersebut dapat langsung digunakan tanpa harus membuat desain manual.
   j. Ekosistem dan Komunitas
      Vue memiliki komunitas yang besar serta banyak plugin dan pustaka tambahan yang mendukung pengembangan aplikasi.
 
-4. Kesimpulan
+5. Kesimpulan
 Vue JS merupakan framework JavaScript yang ringan, cepat, dan mudah dipelajari, sehingga sangat cocok digunakan untuk membangun website interaktif maupun aplikasi berbasis Single Page Application (SPA). Dengan konsep komponen, sistem reaktif, serta dokumentasi yang lengkap, Vue menjadi pilihan yang baik bagi pemula maupun pengembang profesional.
