@@ -51,7 +51,8 @@ Komponen tersebut dapat langsung digunakan tanpa harus membuat desain manual.
 
 1. Pengertian Vue JS
 -Vue JS adalah framework (library) JavaScript yang digunakan untuk membangun antarmuka pengguna (User Interface/UI) dan Single Page Application (SPA) agar website menjadi lebih interaktif dan responsif. Vue dikembangkan oleh Evan You pada tahun 2013–2014 sebagai alternatif yang lebih ringan dan mudah digunakan dibandingkan AngularJS.
--utama Vue.js adalah untuk membangun antarmuka pengguna (UI) yang interaktif, dinamis, dan cepat pada aplikasi web. Sebagai framework JavaScript, Vue.js menyederhanakan proses penulisan kode HTML, CSS, dan JavaScript agar lebih terstruktur dan efisien.
+
+-fungsi utama Vue.js adalah untuk membangun antarmuka pengguna (UI) yang interaktif, dinamis, dan cepat pada aplikasi web. Sebagai framework JavaScript, Vue.js menyederhanakan proses penulisan kode HTML, CSS, dan JavaScript agar lebih terstruktur dan efisien.
 
 3. Kelebihan Vue JS
    Vue JS memiliki beberapa keunggulan, yaitu:
